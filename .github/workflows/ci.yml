@@ -1,0 +1,56 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - name: init
+        run: npm ci
+
+      - name: types
+        run: npm run types
+
+      - name: lint
+        run: npm run lint
+
+      - name: test
+        run: npm test -- --coverage
+
+  release:
+    needs: test
+
+    runs-on: ubuntu-20.04
+    timeout-minutes: 10
+
+    # skip the job if the pull request was opened by Dependabot
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - name: init
+        run: npm ci
+
+      - name: prepare
+        run: npm run prep
+
+      - name: release
+        run: npx --no-install semantic-release
+
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
