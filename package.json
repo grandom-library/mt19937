@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grandom-library/grandom-mt19937.git"
+    "url": "git+https://github.com/grandom-library/mt19937.git"
   },
   "bugs": {
-    "url": "https://github.com/grandom-library/grandom-mt19937/issues"
+    "url": "https://github.com/grandom-library/mt19937/issues"
   },
-  "homepage": "https://github.com/grandom-library/grandom-mt19937#readme",
+  "homepage": "https://github.com/grandom-library/mt19937#readme",
   "keywords": [
     "mersenne",
     "twister",

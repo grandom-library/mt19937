@@ -1,4 +1,4 @@
-# grandom/mt19937
+# @grandom/mt19937
 
 Configurable Mersenne Twister PRNG implementation written in TypeScript.
 
