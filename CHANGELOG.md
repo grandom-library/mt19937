@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/grandom-library/mt19937/compare/v1.0.1...v1.0.2) (2023-08-29)
+
+
+### Performance Improvements
+
+* **deps:** bump @rollup/plugin-typescript from 11.1.2 to 11.1.3 ([da9a82d](https://github.com/grandom-library/mt19937/commit/da9a82d2df8195c2ddae4efe866e6127e7bfff0f))
+
 ## [1.0.1](https://github.com/grandom-library/mt19937/compare/v1.0.0...v1.0.1) (2023-08-24)
 
 
