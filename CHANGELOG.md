@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/grandom-library/mt19937/compare/v1.0.4...v1.0.5) (2023-09-14)
+
+
+### Performance Improvements
+
+* **deps:** bump jest from 29.6.4 to 29.7.0 ([ec4fea4](https://github.com/grandom-library/mt19937/commit/ec4fea47eb7305857b8250c5d6003480dcc176ce))
+
 ## [1.0.4](https://github.com/grandom-library/mt19937/compare/v1.0.3...v1.0.4) (2023-09-14)
 
 
