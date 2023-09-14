@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/grandom-library/mt19937/compare/v1.0.3...v1.0.4) (2023-09-14)
+
+
+### Performance Improvements
+
+* **deps:** bump rollup from 3.29.0 to 3.29.1 ([a03f31d](https://github.com/grandom-library/mt19937/commit/a03f31d1894bb84cbc91ef192af624f58b5f9555))
+
 ## [1.0.3](https://github.com/grandom-library/mt19937/compare/v1.0.2...v1.0.3) (2023-09-06)
 
 
