@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/grandom-library/mt19937/compare/v1.0.5...v1.0.6) (2023-09-25)
+
+
+### Performance Improvements
+
+* **deps:** bump @types/jest from 29.5.4 to 29.5.5 ([4292ab6](https://github.com/grandom-library/mt19937/commit/4292ab677cadfb79b6f97be388d8288e7b2b4bc2))
+
 ## [1.0.5](https://github.com/grandom-library/mt19937/compare/v1.0.4...v1.0.5) (2023-09-14)
 
 
